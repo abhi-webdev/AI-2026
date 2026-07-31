@@ -27,6 +27,10 @@ Two types of conversion
 s = '12'
 intConvertedValue = int(s)
 floatConvertedValue = float(s)
+print(bool(s))
+
+p=""
+print(bool(p))
 
 print(intConvertedValue)
 print(type(intConvertedValue))
@@ -50,17 +54,33 @@ floatConvertString = str(floatVal)
 print(floatConvertString)
 print(type(floatConvertString))
 
+
+# -------- complex datatype ----------
+print("----------complex value & conversion -----------")
+
 floatVal1 = 2.5
 complexConvert =  complex(floatVal1)
 print(type(complexConvert))
 print(complexConvert)   # (2.5+0j)
 
 
-
-
-# -------- complex datatype ----------
-
 c = 12j    # j denote the value of c is complex
 print(type(c))
+
+num = complex(12, 4)
+print(num.real)     # types : float
+print(num.imag)     # types : float
+
+
+# ----------- Truthy and falsy value in bool comversion (total 7 value : 0, 0.0, false, "", [], {}, ())
+print("-----------falsy(7) rest all truthy value -----------")
+
+print(bool(0))
+print(bool(0.0))
+print(bool(False))
+print(bool(""))
+print(bool([]))
+print(bool({}))
+print(bool(()))
 
 
