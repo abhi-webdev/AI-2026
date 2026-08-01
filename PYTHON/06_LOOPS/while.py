@@ -22,3 +22,19 @@ while n>0 :
 
 
 
+# Create a random number guessing game with python.-------------
+
+import random
+num = random.randint(1,10)
+tries = 0
+
+while True : 
+    guess = int(input("Guess the number between 1 to 10 : "))
+    if guess == num: 
+        print("You are right")
+        break
+    else : 
+        print("Sorry you are wrong")
+        tries += 1
+
+print(tries)
