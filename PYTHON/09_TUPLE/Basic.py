@@ -11,6 +11,10 @@ can have different types of data structure in tuple.
 """
 
 
+# t = [1,2,4,5,4]
+# print(type(t))   -> list
+
+
 t = (1,2,4,5,4)
 
 print(type(t))
@@ -20,3 +24,9 @@ count = t.count(4)
 
 print(f"first occurance is : {index}")
 print(f"totoal occurence is {count}")
+
+# t[0] = 12
+print(t[0])
+
+for i in range(len(t)) :
+    print(t[i])
