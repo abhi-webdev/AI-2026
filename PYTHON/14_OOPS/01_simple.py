@@ -15,3 +15,14 @@ print(type(ginger_tea))
 
 print(type(ginger_tea) is Chai)
 print(type(ginger_tea) is ChaiTime)
+
+
+# class Engine :
+#     horsepower = "150 HP Engine"
+    
+#     def get_engine_info(self) :
+#         return self.horsepower
+
+# ans = Engine()
+
+# print(ans.get_engine_info())
