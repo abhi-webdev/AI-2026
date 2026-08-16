@@ -31,7 +31,7 @@ def save_task (tasks) :
                 status = "done" if task["done"] else "not done"
                 f.write(f"{task['text']} || {status} \n")
 
-def display_task (tasks) :
+def display_task (tasks) : 
     if not tasks :
         print(f"Task is not to display")
     else :
